@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Checker</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="weather-headings">
+        <div class="main-page-heading">
+            <h1 class="weatherbeats">Weather<span class="beats">Beats</span></h1>
+            <i class="fas fa-sun" id="weather-icon"></i>
+        </div>
+        <div class="profile-logout">
+            <div class="profile-section">
+                <a href="#" id="logout-link">
+                    <i class="fas fa-sign-out-alt" id="logout-icon"></i>
+                    <p id="logout-label">Logout</p>
+                </a>
+            </div>
+            <div class="profile-section">
+                <a href="#" id="profile-link">
+                    <p id="profile">P</p>
+                    <p id="profile-label">Profile</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="weathers-header">
+        <div class="weather-checker">
+            <h1 id="h1-weather">Weather Checking</h1>
+            <div id="weather">Fetching weather data... </div>
+        </div>
+        <div class="image-weather">
+            <img src="https://png.pngtree.com/png-clipart/20230818/original/pngtree-simple-weather-icon-outline-filled-colorful-forecast-sing-with-blue-cloud-picture-image_8014493.png" id="weather-image">
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
